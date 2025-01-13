@@ -1,5 +1,5 @@
 ## Assignment 1:
-# The objective is to create a Pascal's trigle for the first 15 lines of the Pascal's Triangel
+# The objective is to create a Pascal's trigle and print its first 15 lines
 
 # I will start with a loop
 
@@ -19,4 +19,4 @@ def print_pascal_triangle(n):
     for row in triangle:
         print(''.join(map(str, row)).center(max_width))
 
-    print_pascal_triangle
+    print_pascal_triangle(15)
